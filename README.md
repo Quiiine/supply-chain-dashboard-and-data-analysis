@@ -25,7 +25,7 @@ Using the simulated and aggregated data, a detailed report was created to summar
 
 For a visual representation of the data, a dashboard was created using Tableau (or another visualization tool). It provides an interactive view of the key metrics. You can see a sample image of the dashboard below:
 
-![Supply Chain Dashboard](image_file_path.png)
+![Supply Chain Dashboard](Dashboard%201.png)
 
 ## How to Use
 
