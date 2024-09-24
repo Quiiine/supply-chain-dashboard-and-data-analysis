@@ -1,0 +1,11 @@
+Metric,Value
+Total Orders,1000.0
+Average Cost,276.65984999999995
+Total Profit,55331.97
+Max Delivery Time,22.0
+Min Delivery Time,3.0
+Average Delivery Time,12.6
+Percent of Delayed Orders ( > 10 days),69.5
+Percent of Returned Orders,8.7
+Percent of Damaged Orders,8.5
+Percent Over Target Delivery Time,69.5
