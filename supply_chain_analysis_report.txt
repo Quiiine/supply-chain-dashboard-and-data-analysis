@@ -1,0 +1,34 @@
+Supply Chain Analysis Report
+----------------------------
+
+This report is based on the data collected and processed from the supply chain simulation. The analysis includes various metrics
+calculated to improve business processes and provide actionable insights.
+
+Key Metrics:
+------------
+1. Total Orders: The total number of unique orders processed.
+2. Average Cost: The average cost of each order.
+3. Total Profit: Total revenue calculated based on a 20% profit margin from the cost of each order.
+4. Max Delivery Time: The maximum delivery time recorded for any order.
+5. Min Delivery Time: The minimum delivery time for an order.
+6. Average Delivery Time: The average time it took to deliver orders.
+7. Percent of Delayed Orders ( > 10 days): The percentage of orders where delivery exceeded 10 days, indicating possible bottlenecks.
+8. Percent of Returned Orders: The percentage of orders marked as returned.
+9. Percent of Damaged Orders: The percentage of orders marked as damaged.
+10. Percent Over Target Delivery Time: The percentage of orders that exceeded the target delivery time (10 days).
+
+Conclusions:
+------------
+- The average delivery time is acceptable for most orders; however, approximately X% of the orders faced delays.
+- A significant percentage of orders were marked as returned or damaged, which indicates the need for improving product handling
+  and logistics operations.
+- Profitability is consistent, but the percentage of delayed and damaged orders negatively impacts the overall revenue and customer satisfaction.
+
+Recommendations:
+----------------
+- Focus on optimizing the delivery process to minimize delays and reduce the percentage of orders taking longer than 10 days.
+- Improve product handling processes to reduce the percentage of damaged goods and increase customer satisfaction.
+- Implement real-time monitoring of these key metrics to quickly respond to issues in the supply chain, improving overall profitability.
+
+This report was generated automatically using an Airflow DAG that simulates a supply chain business process and aggregates key metrics for further analysis.
+For more details, see the attached dashboard image in the repository.
